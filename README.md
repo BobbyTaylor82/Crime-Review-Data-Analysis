@@ -22,10 +22,12 @@ We also performed sentiment analysis using VADER sentiment analysis on the revie
   </html>
   
 ### The Code
-examples of code here
+Exploring the data:<br>
+<img width="652" alt="screen shot 2018-02-19 at 11 48 12 am" src="https://user-images.githubusercontent.com/30611037/36391159-eebaee08-156a-11e8-8362-f463d562dd0b.png">
   
 ### Tests
-Stats/graphs pictures, info here
+Example of analysis performed:
+<img width="844" alt="screen shot 2018-02-19 at 11 32 53 am" src="https://user-images.githubusercontent.com/30611037/36391154-eca46388-156a-11e8-9c7e-180ee75db1bd.png">
 
 ### Data Relationships
 
@@ -56,7 +58,12 @@ The overall quality of the Yelp reviews was also called into question, as well a
 We feel that, given ample time, there are far more questions that can be answered and data to be explored. What are the schools like in these areas? We now know a bit about gender and racial demographics involving crime, but how are the demographics spread throughout the city? We have all of this crime data from 2014-2016, can we predict a trend for 2017 and 2018? 
   
 #### Prerequisites
-*include info here
+The following dependencies were used in this analysis:
+<ul>
+  <li>pandas==0.20.1</li>
+  <li>numpy==1.12.1</li>
+  <li>numpydoc==0.6.0</li>
+</ul>
 
 #### Raw Data Sources
 Public annual crime records (2014 - 2016), crime demographics, and affordable housing information were all obtained from <a href="https://data.austintexas.gov/">data.austintexas.gov</a>. 
